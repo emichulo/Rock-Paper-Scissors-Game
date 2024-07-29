@@ -1,7 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <time.h>
 #include <Windows.h>
+
+#include "user.h"
+
 
 int UserChoose(){
     int n;
@@ -69,5 +73,9 @@ void menu(){
 }
 
 int main(){
-menu();
+//menu();
+user n1 = initUser("Emil",2);
+
+printf("player name: %s", n1.name);
+
 }
