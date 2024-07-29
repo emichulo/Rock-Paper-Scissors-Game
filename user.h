@@ -9,4 +9,6 @@ typedef struct User {
 
 user initUser(const char* name, int choose);
 
+void printScore(const user* n1);
+
 #endif // USER_H

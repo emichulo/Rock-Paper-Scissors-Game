@@ -33,10 +33,10 @@ int ComputerChoose(){
 
 void testing(int n1, int n2){
 
-    if(n1 == 1 && n2 == 1 || n1 == 2 && n2 == 2 || n1 == 3 && n2 == 3) {
+    if(( n1 == 1 && n2 == 1 )|| ( n1 == 2 && n2 == 2 )||( n1 == 3 && n2 == 3 )) {
         //draw case add a function to play again
         printf("It's a draw!"); }
-    else if(n1 == 1 && n2 == 3 || n1 == 2 && n2 == 1 || n1 == 3 && n2 == 2)
+    else if(( n1 == 1 && n2 == 3 )|| ( n1 == 2 && n2 == 1 )||( n1 == 3 && n2 == 2 ))
             printf("PC win!");
             else
                 printf("You win!");
@@ -74,8 +74,9 @@ void menu(){
 
 int main(){
 //menu();
-user n1 = initUser("Emil",2);
+user n1 = initUser("Emi",2);
 
-printf("player name: %s", n1.name);
+printf("Player name: %s\n", n1.name);
+printScore(&n1);
 
 }
