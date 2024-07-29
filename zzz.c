@@ -74,8 +74,9 @@ void menu(){
 
 int main(){
 //menu();
-user n1 = initUser("Emil",2);
+user n1 = initUser("Emi",2);
 
-printf("player name: %s", n1.name);
+printf("Player name: %s\n", n1.name);
+printScore(&n1);
 
 }
