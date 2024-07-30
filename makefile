@@ -5,7 +5,7 @@ CXX = g++
 CXXFLAGS = -Wall -I.
 
 # Source files
-SRCS = zzz.c user.c
+SRCS = zzz.c user.c menu.c
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
