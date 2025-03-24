@@ -25,13 +25,13 @@ A nice Rock Paper Scissors console game.
 
 2. Run the .exe:
 
- ```shell
+    ```shell
     main.exe
     ```
 
 3. Or simply use make:
 
- ```shell
+    ```shell
     make
     ```
 
